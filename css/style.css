@@ -40,12 +40,9 @@ li {
 }
 
 .main-pic {
-  display: block;
-  width: 500px;
-  margin: 4 auto;
-  margin-left: 450px;
-  border-radius: 100%;
-  border: 2px solid #404E6D;
+  margin: 0 auto;
+  width: 400px;
+  padding-left: 500px;
 }
 
 .year {
@@ -60,14 +57,9 @@ li {
   margin-top: 0px;
 }
 
-a {
-  text-decoration: none;
-  color: #404E6D;
-  margin: 20px
-}
-
-a p:hover {
-  color: #D1A83B;
+.li {
+  margin-left: 40px;
+  font-size: 10px
 }
 
 a p {

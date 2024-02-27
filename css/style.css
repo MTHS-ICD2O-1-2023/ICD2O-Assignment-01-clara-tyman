@@ -62,6 +62,12 @@ li {
   font-size: 10px
 }
 
+.computer.pic {
+  margin: 0 auto;
+  width: 400px;
+  padding-left: 500px;
+}
+
 a p {
   font-size: 20px;
 }

@@ -1,87 +1,91 @@
 <!DOCTYPE html>
-<!-- ICD20-Assignment 1-HTML-hello_world -->
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <meta name="description" content="Tribute to Ada Lovelace">
-  <meta name="keywords" content=" MTHS, ICD2O, Ada Lovelace, ">
+  <meta name="description" content="My tribute to ada Lovelace">
+  <meta name="keywords" content="mths, icd2o">
   <meta name="author" content="Clara Tyman">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/style.css" />
-  <title>A tribute to Ada Lovelace</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.teal-cyan.min.css" />
+  <title>Assignment #1: Ada Lovelace</title>
 </head>
+
 <body>
-  <h1 id="my-header">Ada Lovelace</h1>
-  <img class="main-pic"
-    src="https://media.newyorker.com/photos/64123041652f9d9fe976fff0/master/w_1600,c_limit/ra1146.jpg">
-  <h2 class="year">1815-1852</h2>
-<ul>
-  <li>English Mathematician</li>
-  <li>Computer Scientist</li>
-  <li>Writer</li>
-  <li>Innovator</li>
-</ul>
-  <h2 class="Ada">About Ada</h2>
-    <p class="description">Ada Lovelace was orn on December 10th 1815 in London England. 
-      She sadly passed away from uterine cancer on November 27th 1852 in London England.</p>
-  </p>
-    <h2 class="Family">Family</h2>
-    <p>She was an only child raised by her mother, Lady Anne Isabelle Noel Byron. Her father, Lord Gerorge Byron, left just 2 months after Ada was
-    born. Ada had a half sibling named Allegra Byron. On July 8th of 1835 Ada married William King. 
-    On May 12th in 1836 They had their first child Byron Noel King named afer her father. 
-    On september 22nd in 1837 they had their second child Anne Isabella King. 
-    Their youngest child was named Ralph Gordon Noel King born on July 2nd in 1839.</p>
-    <h2 class="Accomplishments">Accomplishments</h2>
-    <p>Ada Lovelace accomplished many things in her time. 
-      Although it was never physicaly built she is well know for writin the program for the Analytical Engine. 
-      She worked along side of inventor and mathematician, Charles Babbage. 
-      She mentored with him while he was building the Difference Engine and 
-      she then wrote the programs for the analytical engine. Above all she is considered the first computer programmer</p>
-  <img class="computer-pic"
-    src="https://www.nist.gov/sites/default/files/styles/2800_x_2800_limit/public/images/2023/03/14/SS_2210583803-Ada-%C2%A9HappySloth_edited.jpg?itok=EJ2WGmu6">
-    <h2 class="Fun Facts!">Fun Facts!</h2>
-    <!-- Simple list -->
-    
-    <ul class="demo-list-item mdl-list">
-      <li class="mdl-list__item">
-        <span class="mdl-list__item-primary-content">
-          She is know to be the first computer programmer but she didn't get regonized until almost a centary after.
-        </span>
-      </li>
-      <li class="mdl-list__item">
-        <span class="mdl-list__item-primary-content">
-          The second Tuesday in October has become Ada Lovelace Day, on which the contributions of women to science, technology,
-          engineering, and mathematics are honored.
-        </span>
-      </li>
-      <li class="mdl-list__item">
-        <span class="mdl-list__item-primary-content">
-          When she was just 4 years old she started getting tutored in mathematics and science which was very uncommon for a
-          study of women. She had no access to any formal school growing up.
-        </span>
-      </li>
-      <li class="mdl-list__item">
-        <span class="mdl-list__item-primary-content">
-          Her father, Gerorge Byron is a famous poet
-        </span>
-      </li>
-      <li class="mdl-list__item">
-        <span class="mdl-list__item-primary-content">
-          Her father gave her the nickname of "Pricess of Paralleograms", 
-          Later in life Charles Babbage gave her the nickname of the "Entrantress of Numbers"
-        </span>
-      </li>
-      <li class="mdl-list__item">
-        <span class="mdl-list__item-primary-content">
-          She was made the Countess of Lovelace in 1838 since to her Husband, Lord William King, became the Earl of Lovelace  
-        </span>
-      </li>
-      <li class="mdl-list__item">
-        <span class="mdl-list__item-primary-content">
-          She inherited her fathers love for gambling. As a hobbie she enjoyed betting on horse races.
-        </span>
-      </li>
-    </ul>
-    <img src="./images/poem-lord-byron-v0-zeuz1fzetxcb1.webp"  alt="style">
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <!--Header displays assignment title and my name-->
+    <header class="mdl-layout__header ">
+      <table>
+        <tr>
+          <th class="header-left">A Tribute: Ada Lovelace</th>
+        </tr>
+      </table>
+    </header>
+    <h2 class="year">1815-1852</h2>
+    <p class="quote">"That brain of mine is something more than merely mortal: as time will show"
+      -Ada Lovelace
+    </p>
+    <!--Main Content of page-->
+    <main class="mdl-layout__content">
+      <!--first column - signifying personal history-->
+      <div class="column">
+        <h3>History</h3>
+        <ul>
+          <li>Ada Lovelace was born on December 10th 1815 in London England.</li>
+          <li>She sadly passed away from uterine cancer on November 27th 1852 in London England.</li>
+          <li>She was an only child raised by her mother, Lady Anne Isabelle Noel Byron. Her father, Lord Gerorge Byron,
+            left just 2
+            months after Ada was born.</li>
+          <li>On July 8th of 1835 Ada married William King.</li>
+          <li>On May 12th in 1836 They had their first child Byron Noel King named afer her father.
+            On september 22nd in 1837 they had their second child Anne Isabella King.
+            Their youngest child was named Ralph Gordon Noel King born on July 2nd in 1839.</li>
+        </ul>
+      </div>
+
+      <!--second column - signifying contributions-->
+      <div class="column">
+        <h3>Contributions</h3>
+        <p>Although it was never physicaly built she is well know for writin the program for the Analytical Engine.
+          She worked along side of inventor and mathematician, Charles Babbage.
+          She mentored with him while he was building the Difference Engine and
+          she then wrote the programs for the analytical engine. </p>
+        <p class="quote">"I am in a charming state of confusion"-Ada Lovelace</p>
+      </div>
+      <!--third column - Table on the right side of the Webpage, Signifying important information on Ada Lovelace-->
+      <div class="column">
+        <thead>
+          <tr>
+            <th colspan="2" class="name-with-pic">Ada Lovelace (computer scientist)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th colspan="2"><img src="./images/adalovelace.jpg" alt="Ada Lovelace"></th>
+          </tr>
+        </tbody>
+        </table>
+      </div>
+      <!--fourth column - fun facts-->
+      <div class="column">
+        <h3>Fun facts</h3>
+        <p>Education: When she was just 4 years old she started getting tutored
+          in mathematics and science which was very uncommon for a
+          study of women.
+        <ul>
+          Occupation:
+          <li>English Mathematician</li>
+          <li>Computer Scientist</li>
+          <li>Writer</li>
+          <li>Innovator</li>
+        </ul>
+        Recognition: A programming language was named after her. She became the
+        first computer programmer
+        </p>
+      </div>
+    </main>
+  </div>
 </body>
 </html>

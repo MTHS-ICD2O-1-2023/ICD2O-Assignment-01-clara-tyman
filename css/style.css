@@ -1,73 +1,54 @@
-/* Created by: Clara Tyman
+/* Created by: Clara Tyaan
 * Created on: Feb 2024
 * This file contains the CSS for index.html
 */
 
-body {
-  background-color: #e2ffff5f;
-}
-
-.my-header {
-  background-color: #f4f4f4;
-  color: #404E6D;
-  font-family: "Lato", sans-serif;
-  max-width: 1080px;
-  margin: 0 auto;
-  border: 3px solid #D1A83B;
-}
-
-h1,
-h2,
-ul,
-a p {
+.header-left {
   text-align: center;
-}
-
-h1 {
-  font-size: 70px;
-  padding-top: 20px;
-}
-
-h2 {
-  font-size: 40px;
-  padding-top: 5px;
-}
-
-li {
-  display: inline-block;
-  font-size: 25px;
-  padding: 10px;
-}
-
-.main-pic {
-  margin: 0 auto;
-  width: 400px;
-  padding-left: 500px;
+  padding-top: 15px;
+  padding-left: 10px;
+  font-size: large;
 }
 
 .year {
-  font-size: 25px;
-  padding-top: 0px;
-  margin-top: 0px;
-  margin-bottom: 5px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.Ada {
-  font-size: 18px;
-  margin-top: 0px;
+body {
+  background-color: rgb(195, 242, 225);
 }
 
-.li {
-  margin-left: 40px;
-  font-size: 10px
+.header-right {
+  text-align: right;
+  padding-top: 15px;
+  padding-right: 10px;
 }
 
-.computer.pic {
-  margin: 0 auto;
-  width: 400px;
-  padding-left: 500px;
+.column {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-a p {
-  font-size: 20px;
+
+.colspan {
+  padding-left: 70%;
+}
+
+h3 {
+  background-color: rgb(108, 196, 247);
+  color: rgb(233, 244, 255);
+  text-align: center;
+}
+
+.quote {
+  border-color: rgb(154, 235, 255);
+  background-color: rgb(154, 235, 255);
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: larger;
 }

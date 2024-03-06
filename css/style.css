@@ -16,7 +16,7 @@
 }
 
 body {
-  background-color: rgb(195, 242, 225);
+  background-color: (195, 242, 225);
 }
 
 .header-right {
@@ -38,16 +38,16 @@ body {
 }
 
 h3 {
-  background-color: rgb(108, 196, 247);
-  color: rgb(233, 244, 255);
+  background-color: (108, 196, 247);
+  color: (233, 244, 255);
   text-align: center;
 }
 
 .quote {
-  border-color: rgb(154, 235, 255);
-  background-color: rgb(154, 235, 255);
+  border-color: (154, 235, 255);
+  background-color: (154, 235, 255);
   text-align: center;
-  color: rgb(0, 0, 0);
+  color: (0, 0, 0);
   font-style: italic;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: larger;
